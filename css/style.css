@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:300,400,500,600,700,800|Roboto:300,400,500");
 /* line 2, E:/172 Etrain Education/172_Etrain_Education_html/sass/_extends.scss */
 .btn_1, .btn_2:hover, .main_menu .navbar-toggler:after, .banner_part .banner_text .btn_1, .feature_part .single_feature:hover span {
-  background-image: linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%);
+  background-color: #1C1C1C;
 }
 
 /* line 6, E:/172 Etrain Education/172_Etrain_Education_html/sass/_extends.scss */
@@ -283,7 +283,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
   text-align: center;
   width: 80px;
   height: 2px;
-  background-color: #ff663b;
+  background-color: #1C1C1C;
 }
 
 @media (max-width: 576px) {
@@ -619,9 +619,9 @@ ul {
 
 /* line 97, E:/172 Etrain Education/172_Etrain_Education_html/sass/_button.scss */
 .btn_4 {
-  background-color: #ff663b;
+  background-color: #1C1C1C;
   padding: 3.5px 21px;
-  background: #ff663b;
+  background: #1c1c11;
   text-transform: capitalize;
   display: inline-block;
   border: 2px solid transparent;
@@ -630,11 +630,28 @@ ul {
   color: #fff;
 }
 
-/* line 106, E:/172 Etrain Education/172_Etrain_Education_html/sass/_button.scss */
 .btn_4:hover {
-  background: rgba(255, 102, 59, 0.8);
+  background: rgba(79, 79, 79, 0.719);
   color: #fff;
 }
+.btn_Cad{
+  background-color: #1137ff;
+  padding: 3.5px 21px;
+  background: #1137ff;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 2px solid transparent;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.btn_Cad:hover {
+  background: rgba(9, 240, 201, 0.87);
+  color: #fff;
+}
+/* line 106, E:/172 Etrain Education/172_Etrain_Education_html/sass/_button.scss */
+
 
 /*=================== custom button rule start ====================*/
 /* line 114, E:/172 Etrain Education/172_Etrain_Education_html/sass/_button.scss */
@@ -2193,7 +2210,7 @@ ul {
 
 /* line 38, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link {
-  color: #0c2e60;
+  color: #1c1c1c;
   font-size: 20px;
   padding: 0px 24px;
   font-family: "Roboto", sans-serif;
@@ -2208,7 +2225,7 @@ ul {
 
 /* line 46, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link:hover {
-  color: #e69245;
+  color: #98FB98;
 }
 
 /* line 51, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -3174,7 +3191,7 @@ ul {
 
 /* line 145, E:/172 Etrain Education/172_Etrain_Education_html/sass/_feature_part.scss */
 .feature_part .single_feature:hover .single_feature_part {
-  border: 1px solid #ff663b;
+  border: 1px solid #1136ff;
 }
 
 /* line 148, E:/172 Etrain Education/172_Etrain_Education_html/sass/_feature_part.scss */
@@ -4046,7 +4063,7 @@ ul {
 /* line 61, E:/172 Etrain Education/172_Etrain_Education_html/sass/_special_cource.scss */
 .special_cource .single_special_cource .special_cource_text h4 {
   float: right;
-  color: #ff663b;
+  color: #1c1c1c;
   font-weight: 600;
 }
 
@@ -4062,7 +4079,7 @@ ul {
 
 /* line 73, E:/172 Etrain Education/172_Etrain_Education_html/sass/_special_cource.scss */
 .special_cource .single_special_cource .special_cource_text h3:hover {
-  color: #ff663b;
+  color:#a9a9a9;
 }
 
 @media (max-width: 576px) {
@@ -4656,7 +4673,7 @@ ul {
 
 /* line 132, E:/172 Etrain Education/172_Etrain_Education_html/sass/_testimonial_part.scss */
 .testimonial_part .owl-dots button.owl-dot.active {
-  background-color: #ff663b;
+  background-color: #1C1C1C;
   width: 17px;
   border-radius: 50px;
 }
@@ -6954,7 +6971,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 2, E:/172 Etrain Education/172_Etrain_Education_html/sass/_footer.scss */
 .footer-area {
-  background-color: #f7f7f7;
+  border-top: 1px solid #dedede;
+  background-color: #fff;
   padding: 100px 0px 20px;
 }
 
@@ -7206,7 +7224,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 182, E:/172 Etrain Education/172_Etrain_Education_html/sass/_footer.scss */
 .footer-area .btn {
-  background-color: #ff663b;
+  background-color: #1c1c11;
   color: #fff;
   width: 40px;
   border-radius: 0px;
