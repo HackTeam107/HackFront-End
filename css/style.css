@@ -45,7 +45,7 @@ input:hover, input:focus {
 
 /* line 18, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
 .section_padding {
-  padding: 140px 0px;
+  padding: 10px 0px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -665,7 +665,7 @@ ul {
   color: #fff;
   border: 1px solid #edeff2;
   text-transform: uppercase;
-  background-color: #ff663b;
+  background-color: #1c1c1c;
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -736,7 +736,7 @@ ul {
 
 /* line 14, E:/172 Etrain Education/172_Etrain_Education_html/sass/_blog.scss */
 .blog_area a:hover, .blog_area a :hover {
-  color: #ff663b;
+  color: #1c1c1c;
 }
 
 /* line 20, E:/172 Etrain Education/172_Etrain_Education_html/sass/_blog.scss */
@@ -1242,7 +1242,7 @@ ul {
 
 /* line 540, E:/172 Etrain Education/172_Etrain_Education_html/sass/_blog.scss */
 .blog_details a:hover {
-  color: #ff663b !important;
+  color: #1c1c1c !important;
 }
 
 /* line 545, E:/172 Etrain Education/172_Etrain_Education_html/sass/_blog.scss */
@@ -1310,7 +1310,7 @@ ul {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #ff7e5f;
+  background-color: #1c1c1c;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -1533,7 +1533,7 @@ ul {
 
 /* line 835, E:/172 Etrain Education/172_Etrain_Education_html/sass/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #ff663b;
+  background: #1c1c1c;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
